@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "label": "Flight",
+        "link": "/flights"
+    },
+    {
+        "id": 2,
+        "label": "Hotel",
+        "link": "/hotel"
+    },
+    {
+        "id": 3,
+        "label": "Visa",
+        "link": "/visa"
+    },
+    {
+        "id": 4,
+        "label": "Holidays",
+        "link": "/holidays"
+    }
+]

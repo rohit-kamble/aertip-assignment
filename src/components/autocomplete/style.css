@@ -1,0 +1,9 @@
+.react-serach .wrapper {
+    border: 0 !important;
+    border-bottom: 1px solid red !important;
+    border-radius: 0 !important;
+    margin-right: 20px;
+}
+.react-serach .wrapper:hover , .react-serach .wrapper:focus-within {
+    box-shadow: unset !important;
+}

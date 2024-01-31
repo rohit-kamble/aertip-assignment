@@ -1,0 +1,21 @@
+.react-dropdown-select-dropdown {
+    border-radius: 8px;
+}
+.react-dropdown-select-item-selected {
+    background-color: #7bed9f !important;
+}
+.react-dropdown-select-dropdown-position-bottom {
+    min-width: 200px !important;
+}
+
+.drop-down-menu {
+    width: 150px !important;
+    border: 0 !important;
+}
+.drop-down-menu:focus-within {
+    box-shadow: none !important;
+}
+.react-dropdown-select-content {
+    display: unset !important;
+    flex: none !important;
+}

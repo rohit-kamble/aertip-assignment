@@ -1,0 +1,12 @@
+.react-datepicker-wrapper {
+    align-self: self-end;
+}
+.react-datepicker-wrapper input {
+    border: 0;
+    border-bottom: 1px solid  black;
+}
+
+/* .react-datepicker-wrapper input:focus, .react-datepicker-wrapper .input:focus-within {
+    box-shadow: none !important;
+    border: 0 !important;
+} */
