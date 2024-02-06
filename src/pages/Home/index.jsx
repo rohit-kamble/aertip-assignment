@@ -104,14 +104,15 @@ export default function Home() {
        result.length > 0 ? setFilterData(result) : setFilterData([])
       }
       const filterBySort = (event) => {
+        setShowPriceFilter(false);
           if(event[0].value === 1 && filterData.length > 0){
-            setFilterData(filterData.sort((a, b)=> b.ft - a.ft ));
+            setFilterData([...filterData].sort((a, b)=> a.ft - b.ft ));
           }
           else if(event[0].value === 2 && filterData.length > 0) {
-            setFilterData(filterData.sort((a, b)=> parseFloat(a.dt) - parseFloat(b.dt)))
+            setFilterData([...filterData].sort((a, b)=> parseFloat(a.dt) - parseFloat(b.dt)))
           }
           else {
-            filterData.length > 0 && setFilterData(filterData.sort((a, b)=> parseFloat(a.at) - parseFloat(b.at)))
+            filterData.length > 0 && setFilterData([...filterData].sort((a, b)=> parseFloat(a.at) - parseFloat(b.at)))
           }
       }
     return (
